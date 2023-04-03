@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="myprojects.html">My Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mystore.html">My Store </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+        </header>
+<!-- portfolio section-->
+<section id="portfolio">
+    <div class="container mt-3">
+        <h1 style = "color:white;"class="text-center">Portfolio</h1>
+        <div class="row">
+  
+            <div class="col-lg-4 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/csv2.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">CSV Processing</h4>
+                        <p class="card-text">Program to process a 3 column csv file with subject grades. Can average by specific subject.</p>
+                        <div class="text-center">
+                            <a href="upload.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/weather2.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Weather </h4>
+                        <p class="card-text">Program to give accurate weather information based on clients IP address. Uses the OpenWeatherApi.</p>
+                        <div class="text-center">
+                            <a href="tempature.php" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="images/geotag.png" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Geotag Info</h4>
+                        <p class="card-text">Program to give you geotag info based on uploaded photos. Photo must contain geotag info.</p>
+                        <div class="text-center">
+                            <a href="geo_relationship_images.html" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  
+  
+  
+  </section>
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

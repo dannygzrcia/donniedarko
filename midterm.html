@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Midterm Form</title>
+</head>
+<body>
+
+	<form action="form.php" method="POST">
+		
+
+		<input type="hidden" name="full_name" value="Daniel Garcia">
+		<input type="hidden" name="term" value="Midterm_FSP2023">
+		
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required>
+		<br>
+
+		<label for="email">Email-Address:</label>
+		<input type="email" name="email" id="email" required>
+		<br>
+
+    <h4>Question types you like</h4>
+
+    <label for="multiplechoice">Multiple Choice </label>
+    <input type="checkbox" id="multiplechoice" name="choice" value="multiple type">
+    <label for="multipleanswers">Multiple Answers</label> 
+    <input type="checkbox" id="multipleanswers" name="choice" value="multiple answers">
+    <label for="Coding">Coding</label>
+    <input type="checkbox" id="Coding" name="choice" value="Coding">
+    
+    <label for="extrapoint">Extra Points</label>
+    <input type="checkbox" id="extrapoint" name="choice" value="extra point">
+    <label for="theoretical">Theoretical</label>
+    <input type="checkbox" id="theoretical" name="choice" value="theoretical">
+    <br>
+    <h4>What grade do you expect?</h4>
+    <label for="A">A</label> 
+    <input type="radio" id="A" name="Grade" value="A">
+    <label for="A-">A-</label>
+    <input type="radio" id="A-" name="Grade" value="A-">
+    <label for="B+">B+</label>
+    <input type="radio" id="B+" name="Grade" value="B+">
+    <label for="B">B</label>
+    <input type="radio" id="B" name="Grade" value="B">
+    <label for="Noneof">None of the mentioned answers</label>
+    <input type="radio" id="Noneof" name="Grade" value="Noneof">
+
+    <button type="submit">Submit</sub></button>
+
+<button type="reset">Clear</sub></button>
+	</form>
+
+</body>
+</html>
